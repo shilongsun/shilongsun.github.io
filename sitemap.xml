@@ -1,34 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>https://shilongsun.github.io/</loc>
-    <changefreq>daily</changefreq>
-    <image:image>
-      <image:loc>https://shilongsun.github.io/images/Oval.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://shilongsun.github.io/images/uw.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://shilongsun.github.io/ECON 102.html</loc>
-    <changefreq>daily</changefreq>
-    <image:image>
-      <image:loc>https://shilongsun.github.io/images/uw.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://shilongsun.github.io/index.html</loc>
-    <changefreq>daily</changefreq>
-    <image:image>
-      <image:loc>https://shilongsun.github.io/images/Oval.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://shilongsun.github.io/images/uw.png</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://shilongsun.github.io/cv.pdf</loc>
-    <changefreq>daily</changefreq>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://shilongsun.github.io/</loc>
+  <lastmod>2018-05-03T22:21:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://shilongsun.github.io/cv.pdf</loc>
+  <lastmod>2018-05-03T22:21:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shilongsun.github.io/ECON%20102.html</loc>
+  <lastmod>2018-05-03T22:21:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://shilongsun.github.io/index.html</loc>
+  <lastmod>2018-05-03T22:21:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
