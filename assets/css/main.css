@@ -3008,7 +3008,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 		.spotlight .content {
@@ -3111,7 +3111,7 @@
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 2em 5em 4em 2em ;
 		}
 
 			#header.alt h1 {
@@ -3156,7 +3156,7 @@
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 2em 4em 3em 4em ;
 				}
 
 		}
@@ -3168,7 +3168,7 @@
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 2em 3em 2em 3em ;
 				}
 
 		}
@@ -3189,7 +3189,7 @@
 					}*/
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 2em 2em 2.5em 2em ;
 				}
 
 					#header.alt h1 {
@@ -3205,7 +3205,7 @@
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 2em 1.5em 1em 1.5em ;
 				}
 
 		}
@@ -3217,7 +3217,7 @@
 			}
 
 				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
+					padding: 2em 1em 0.5em 1em ;
 				}
 
 		}
@@ -3243,7 +3243,7 @@
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 64em;
+		width: 55em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #f7f7f7;
@@ -3283,7 +3283,7 @@
 		}
 
 		#nav + #main {
-			padding-top: 4.25em;
+			padding-top: 2.5em;
 		}
 
 		#nav ul {
@@ -3298,7 +3298,7 @@
 				-ms-transition: margin 0.2s ease;
 				transition: margin 0.2s ease;
 				display: inline-block;
-				margin: 0 0.35em;
+				margin: 0 1.5em;
 				padding: 0;
 				vertical-align: middle;
 			}
@@ -3337,7 +3337,7 @@
 		}
 
 			#nav.alt ul li {
-				margin: 0 0.175em;
+				margin: 0 1.5em;
 			}
 
 				#nav.alt ul li a {
@@ -3625,6 +3625,10 @@
 					border-bottom-left-radius: 0;
 				}
 
+		.dept-word{
+			margin-bottom: 1.5em !important;
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
@@ -3636,6 +3640,9 @@
 					width: calc(100% + 8em);
 				}
 
+			.spotlight .content header.major {
+				margin: -1.5em 0 2em 0;
+			}
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3654,14 +3661,16 @@
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 3em 2em 1em 2em ;
+				padding: 2em 2em 1em 2em ;
 			}
 
 				#main > .main > .image.main:first-child {
 					margin: -3em 0 2em -2em;
 					width: calc(100% + 4em);
 				}
-
+				.spotlight .content header.major {
+					margin: 0em 0 2em 0;
+				}
 		}
 
 		@media screen and (max-width: 480px) {
@@ -3717,7 +3726,7 @@
 
 		#footer > * {
 			width: calc(50% - 2em);
-			margin-left: 2em;
+			margin-right: 2em;
 		}
 
 		#footer .copyright {
@@ -3747,6 +3756,9 @@
 				#footer > * {
 					width: 100%;
 					margin-left: 0;
+				}
+
+				.wisclogo {
 					margin-bottom: 3em;
 				}
 
@@ -3783,8 +3795,8 @@
 /* Wrapper */
 
 	#wrapper {
-		width: 64em;
-		max-width: calc(100% - 4em);
+		width: 55em;
+		max-width: calc(100% - 5em);
 		margin: 0 auto;
 	}
 
