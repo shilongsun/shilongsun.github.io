@@ -3008,7 +3008,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		.spotlight .content {
@@ -3111,7 +3111,7 @@
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 4em 5em 4em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3156,7 +3156,7 @@
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 4em 4em 3em 4em ;
 				}
 
 		}
@@ -3601,7 +3601,7 @@
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 5em 2em 5em ;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3628,7 +3628,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
-				padding: 4em 4em 2em 4em ;
+				padding: 2em 4em 2em 4em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3641,7 +3641,7 @@
 		@media screen and (max-width: 980px) {
 
 			#main > .main {
-				padding: 4em 3em 2em 3em ;
+				padding: 2em 3em 2em 3em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3654,7 +3654,7 @@
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 3em 2em 1em 2em ;
+				padding: 2em 2em 2em 2em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3667,7 +3667,7 @@
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 1.5em 1.5em 1em 1.5em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3684,7 +3684,7 @@
 			}
 
 				#main > .main {
-					padding: 2.5em 1em 0.5em 1em ;
+					padding: 1.5em 1em 0.5em 1em ;
 				}
 
 					#main > .main > .image.main:first-child {
@@ -3799,7 +3799,7 @@
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
-				max-width: 100%;
+				max-width: 90%;
 			}
 
 		}
