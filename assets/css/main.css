@@ -1902,7 +1902,7 @@
 		font-weight: 300;
 		height: 2.75em;
 		line-height: 2.75em;
-		min-width: 9.25em;
+		min-width: 11em;
 		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
@@ -2996,7 +2996,9 @@
 				}
 
 		}
-
+.cv-icon{
+	margin: 0em 0em 0em 0em !important;
+}
 /* Spotlight */
 
 	.spotlight {
@@ -3111,7 +3113,7 @@
 		}
 
 		#header.alt {
-			padding: 4em 5em 4em 5em ;
+			padding: 4em 5em 1.5em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3148,7 +3150,18 @@
 					margin: 0 auto;
 					max-width: 75%;
 				}
-
+		@media screen and (max-width: 2160px) {
+			.wisc-logo{
+				width: 65%;
+				height: 65%;
+			}
+}
+@media screen and (max-width: 1680px) {
+	.wisc-logo{
+		width: 65%;
+		height: 65%;
+	}
+}
 		@media screen and (max-width: 1280px) {
 
 			#header {
@@ -3156,11 +3169,25 @@
 			}
 
 				#header.alt {
-					padding: 4em 4em 3em 4em ;
+					padding: 4em 4em 1.5em 4em ;
 				}
-
+				.wisc-logo{
+					width: 60%;
+					height: 60%;
+				}
 		}
-
+		@media screen and (max-width: 1200px) {
+			.wisc-logo{
+				width: 65%;
+				height: 65%;
+			}
+		}
+		@media screen and (max-width: 1024px) {
+			.wisc-logo{
+				width: 65%;
+				height: 65%;
+			}
+		}
 		@media screen and (max-width: 980px) {
 
 			#header {
@@ -3170,9 +3197,17 @@
 				#header.alt {
 					padding: 5em 3em 2em 3em ;
 				}
-
+			.wisc-logo{
+				width: 40%;
+				height: 40%;
+			}
 		}
-
+		@media screen and (max-width: 800px) {
+			.wisc-logo{
+				width: 50%;
+				height: 50%;
+			}
+		}
 		@media screen and (max-width: 736px) {
 
 			#header {
@@ -3198,6 +3233,20 @@
 
 		}
 
+		@media screen and (max-width: 680px) {
+			.wisc-logo{
+				width: 50%;
+				height: 50%;
+			}
+		}
+
+		@media screen and (max-width: 600px) {
+			.wisc-logo{
+				width: 60%;
+				height: 60%;
+			}
+		}
+
 		@media screen and (max-width: 480px) {
 
 			#header {
@@ -3220,6 +3269,18 @@
 					padding: 3.5em 1em 0.5em 1em ;
 				}
 
+		}
+		@media screen and (max-width: 375px) {
+			.wisc-logo{
+				width: 70%;
+				height: 70%;
+			}
+		}
+		@media screen and (max-width: 320px) {
+			.wisc-logo{
+				width: 75%;
+				height: 75%;
+			}
 		}
 
 		body.is-loading #header.alt > * {
@@ -3667,7 +3728,7 @@
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 1.5em 1.5em 1em 1.5em ;
+				padding: 1.5em 1.5em 1.5em 1.5em ;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3684,7 +3745,7 @@
 			}
 
 				#main > .main {
-					padding: 1.5em 1em 0.5em 1em ;
+					padding: 1.5em 1em 1.5em 1em ;
 				}
 
 					#main > .main > .image.main:first-child {
@@ -3740,7 +3801,7 @@
 			#footer {
 				padding: 4em 3em 2em 3em ;
 				display: block;
-				margin: 0 0 3em 0;
+				margin: 0 0 0em 0;
 				width: 100%;
 			}
 
