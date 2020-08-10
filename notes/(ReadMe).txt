@@ -4,6 +4,8 @@ You can put any files that you want to "share it with a link" in here. Then comm
 
 The files are searchable "only if" you explicitly put "the link to the file" anywhere on the Internet (your webpage, Facebook) etc.
 
-Suppose you want to share the file name "myVideo.mp4", after you put the video into this folder and commit, this video can be accessed from the following link https://shilongsun.github.io/notes/myVideo.mp4
+Suppose you want to share the file name "myVideo.mp4", after you put the video into this folder and commit, this video can be accessed from the following link http://www.shilongsun.com/notes/myVideo.mp4
 
-You can also add any other folder into you GitHub folder. They will appear as https://shilongsun.github.io/folderName
+You can also add any other folder into you GitHub folder. They will appear as http://www.shilongsun.com/folderName
+
+and any item, for example, "item.jpg" that you put in the folder will appear as http://www.shilongsun.com/folderName/
