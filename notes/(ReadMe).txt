@@ -8,4 +8,4 @@ Suppose you want to share the file name "myVideo.mp4". After you put the video i
 
 You can also add any other folder into you GitHub folder. They will appear as http://www.shilongsun.com/folderName
 
-and any item, for example, "item.jpg" that you put in the folder will appear as http://www.shilongsun.com/folderName/
+and any item, for example, "item.jpg" that you put in that folder will appear as http://www.shilongsun.com/folderName/item.jpg
