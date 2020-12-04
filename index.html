@@ -81,9 +81,22 @@
 								<header class="major">
 									<h2>Research</h2>
 								</header>
+								
 									<h3><b>Works in Progress</b></h3>
-									<h4><b>Preemptive Entry and Technology Diffusion in the Market for Drive-in Theaters</b> (with Ricard Gil, Jean-François Houde and Yuya Takahashi)  </h4>
-									<h4><b>Vertical Incentives for Product Differentiation in the Chinese Film Industry </b> (with Charles Hodgson)</h4>
+									<!-- <h4><b>Preemptive Entry and Technology Diffusion in the Market for Drive-in Theaters</b> (with Ricard Gil, Jean-François Houde and Yuya Takahashi)  </h4> -->
+
+									<!-- research 1-->
+									<h4 class="collapsible"><b>"Preemptive Entry and Technology Diffusion in the Market for Drive-in Theaters"</b> (with Ricard Gil, Jean-François Houde and Yuya Takahashi)</h4>
+									<div class="content_accoridon">
+									  <h4>Paper is available upon request.</h4>
+									</div>
+
+									<!-- research 2-->
+									<h4 class="collapsible"><b>"Vertical Incentives for Product Differentiation in the Chinese Film Industry"</b> (with Charles Hodgson)</h4>
+									<div class="content_accoridon">
+									  <h4>Paper is available upon request.</h4>
+									</div>
+
 							</div>
 						</div>
 					</section>
@@ -149,6 +162,23 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var content = this.nextElementSibling;
+			    if (content.style.maxHeight){
+			      content.style.maxHeight = null;
+			    } else {
+			      content.style.maxHeight = content.scrollHeight + "px";
+			    }
+			  });
+			}
+			</script>
 
 		</body>
 		</html>
