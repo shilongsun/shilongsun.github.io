@@ -1,34 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-		<url>
-			<loc>http://www.shilongsun.com</loc>
-			<changefreq>weekly</changefreq>
-		</url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-		<url>
-			<loc>http://www.shilongsun.com/#cv</loc>
-			<changefreq>weekly</changefreq>
-		</url>
 
-		<url>
-			<loc>http://www.shilongsun.com/#research</loc>
-			<changefreq>weekly</changefreq>
-		</url>
+<url>
+  <loc>https://www.shilongsun.com/</loc>
+  <lastmod>2021-01-26T01:05:48+00:00</lastmod>
+</url>
 
-		<url>
-			<loc>http://www.shilongsun.com/#teaching</loc>
-			<changefreq>weekly</changefreq>
-		</url>
 
-		<url>
-			<loc>http://www.shilongsun.com/#links</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>http://www.shilongsun.com/mailto:ssun226@wisc.edu</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-	</urlset>
-
+</urlset>
