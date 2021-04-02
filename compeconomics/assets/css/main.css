@@ -3808,7 +3808,7 @@
 
 		#footer .copyright {
 			width: 100%;
-			margin: 2.5em 0 2em 0;
+			margin: 3em 0 1em 0;
 			font-size: 0.8em;
 			text-align: center;
 		}
@@ -3844,7 +3844,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 4em 4em 2em 4em ;
+				padding: 4em 4em 0em 4em ;
 			}
 
 		}
@@ -3865,7 +3865,7 @@
 				}
 
 				#footer .copyright {
-					text-align: left;
+					/* text-align: left; */
 				}
 
 		}
